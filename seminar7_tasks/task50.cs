@@ -22,7 +22,7 @@ int columsPosition = int.Parse(Console.ReadLine()!);
 Fillarray(array);
 PrintArray(array);
 
-if (rowsPosition > 6 && columsPosition > 7)
+if (rowsPosition > array.GetLength(0) && columsPosition > array.GetLength(1))
     {
         Console.Write("Такого числа в массиве нет(");
     }
